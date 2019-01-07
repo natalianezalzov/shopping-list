@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex.4</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="block">
+        <h1>Shopping list</h1>
+        <div class="total">Total expenditure: <span id="total"></span></div>
+        <div id="table"></div>
+        <div id="form" class="frm">
+            <div class="frm_content">
+                <div class="input_form">
+                    <input type="text" id="product" class="input_el" placeholder="Product name" />
+                    <input type="text" id="nmbr" class="input_el" placeholder="Product quantity" />
+                    <input type="text" id="price" class="input_el" placeholder="Price" />
+                </div>
+                <button onclick="addItem();" class="btn_frm">Insert the product into list</button>
+                <p id="err"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
